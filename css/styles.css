@@ -46,13 +46,13 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-menu-link: hover,
-.header-menu-link: focus {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: #404bbf;
 }
 
 .header-address-mail {
-  font-style: normal
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em
@@ -70,7 +70,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  background-color: #2e2f42;
+  background-color: var(--color-grey);
 }
 .section-btn {
   font-family: "Roboto", sans-serif;
@@ -83,7 +83,7 @@ ul {
   cursor: pointer;
 }
 .section-btn:hover {
-  background-color: #404BBF;
+  background-color:var(--color-pressed-state);
 }
 
 /**------section2--------*/
