@@ -76,11 +76,11 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 .section-btn:hover {
-  background-color: #404bbf;
+  background-color: #404BBF;
 }
 
 /**------section2--------*/
@@ -121,6 +121,7 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em
   color: #2e2f42;
 }
 .people-profession {
