@@ -49,10 +49,11 @@ body {
 .header-menu-link:focus {
   color: #404bbf;
 }
-.header-address-item{
+.header-addres {
   font-style: normal;
 }
 .header-address-mail {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
