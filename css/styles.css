@@ -49,8 +49,10 @@ body {
 .header-menu-link:focus {
   color: #404bbf;
 }
-.header-address-mail {
+.header-address-item{
   font-style: normal;
+}
+.header-address-mail {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -143,7 +145,7 @@ body {
   background: #2e2f42;
 }
 .footer-logo {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
