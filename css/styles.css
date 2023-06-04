@@ -171,21 +171,23 @@ body {
 
 /**------portfolio----------*/
 .main-but-btn-color {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background: #404bbf;
   cursor: pointer;
 }
 .main-but-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #4d5ae5;
-  background: #f4f4fd;
+  background: var(--color-cloud);
   cursor: pointer;
 }
 
