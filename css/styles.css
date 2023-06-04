@@ -170,16 +170,6 @@ body {
 }
 
 /**------portfolio----------*/
-.main-but-btn-color {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #404bbf;
-  cursor: pointer;
-}
 .main-but-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -190,40 +180,22 @@ body {
   background: var(--color-cloud);
   cursor: pointer;
 }
-
+.main-but-btn:hover,
+.main-but-btn:focus {
+  color: #ffffff;
+  background-color: var(--color-pressed-state);
+}
 /**------section 5-----*/
 .hero-foto {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .hero-name {
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
-}
-/**-----section 6----*/
-.aitem-foto {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
-}
-.aitem-name {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
-}
-/**----section 7---*/
-.finish-foto {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
-}
-.finish-name {
-  font-size: 16px;
-  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
